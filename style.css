@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	background: url("https://hackaday.com/wp-content/uploads/2021/01/blobs-featured.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.btn3{
+	border: none;
+	box-shadow: 0 0 5px black;
+	border-radius: 20px;
+	margin-top: 20px;
+	height: 40px;
+	width: 100px;
+	background: purple;
+	color: white;
+}
+.header1{
+	background: url("https://cdn.dribbble.com/users/1595839/screenshots/11700339/media/5b39c07a6a721b6b440288c6c6ec5cb1.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.header2{
+	opacity: 10px;
+	background: url("https://cdn.dribbble.com/users/736467/screenshots/5465876/blobs-longer.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.h1{
+	font-family: sans-serif;
+	margin-bottom: 20px;
+}
+.header .content{
+	display: none;
+	height: 50vh;
+	width: 50vw;
+	position: relative;
+	justify-content: space-between;
+	
+}
+
+.header1 .content{
+
+	display: flex;
+	height: 50vh;
+	width: 50vw;
+	position: relative;
+	justify-content: center;
+	
+}
+.header2 .content{
+	display: flex;
+	height: 50vh;
+	width: 50vw;
+	position: relative;
+	justify-content: center;
+	
+}
+.btn1{
+	box-shadow: 0 0 5px black;
+	border: none;
+	background: green;
+	color: white;
+	border-radius: 20px;
+	margin-top: 20px;
+	height: 40px;
+	width: 100px;
+}
+.btn1,.btn3:hover{
+	cursor: pointer;
+}
+
+
+.header2 .content .login{
+
+	width: 45%;
+	background: white;
+	color: purple;
+	border-radius: 10px;
+}
+.header2 .content .login form{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 30px;
+
+}
+
+
+.header1 .content .login{
+	width: 45%;
+	background: black;
+	color: white;
+}
+.header1 .content .login form{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 30px;
+
+}
+.header1 .content .cadastro {
+	opacity: 70%;
+	width: 100%;
+	background: gray;
+	color: white;
+	border-radius: 10px;
+	display: flex;
+
+}
+@media only screen and (max-width: 530px){
+	.name{
+		width: 100px;
+	}
+
+}
+.header1 .content .cadastro form{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 30px;
+
+}
+
+.name,.email,.pass{
+	height: 30px;
+	width: 250px;
+	border-radius: 20px;
+	padding: 10px;
+	border: 1px solid black;
+} 
+
+.btn{
+	border-radius: 20px;
+	margin-top: 20px;
+	height: 40px;
+	width: 100px;
+}
+.btn:hover{
+	cursor: pointer;
+}
